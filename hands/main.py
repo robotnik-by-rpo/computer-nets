@@ -90,7 +90,7 @@ if __name__ == "__main__":
         if stats is None:
             continue
 
-        print(f"\n=== Эго-сеть {ego} ===")
+        print(f"\n=== Сеть {ego} ===")
         print(f"Узлов: {G.number_of_nodes()}, рёбер: {G.number_of_edges()}")
         print(f"Пар: {stats['total_pairs']}")
         print(f"Среднее: {stats['mean']:.3f}")
